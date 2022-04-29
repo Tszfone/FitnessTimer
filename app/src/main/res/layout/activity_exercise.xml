@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/timerCL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseActivity">
+
+    <TextView
+        android:id="@+id/exerciseNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toTopOf="@+id/numSetTV"
+        app:layout_constraintEnd_toEndOf="@+id/numSetTV"
+        app:layout_constraintStart_toStartOf="@+id/numSetTV"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numSetTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_no"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/numRepTV"
+        app:layout_constraintEnd_toEndOf="@+id/timerTV"
+        app:layout_constraintStart_toStartOf="@id/timerTV" />
+
+    <TextView
+        android:id="@+id/numRepTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/timerTV"
+        app:layout_constraintEnd_toEndOf="@+id/timerTV"
+        app:layout_constraintStart_toStartOf="@id/timerTV" />
+
+    <TextView
+        android:id="@+id/timerTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:textColor="@color/white"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/ready"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/timerTV"
+        app:layout_constraintStart_toStartOf="@id/timerTV"
+        app:layout_constraintTop_toBottomOf="@id/timerTV" />
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/finishBtn"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/stateTV"
+        app:layout_constraintStart_toStartOf="@+id/stateTV"
+        app:layout_constraintTop_toBottomOf="@+id/stateTV" />
+
+    <Button
+        android:id="@+id/skipBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/skipBtn"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/finishBtn"
+        app:layout_constraintStart_toStartOf="@+id/finishBtn"
+        app:layout_constraintTop_toBottomOf="@+id/finishBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

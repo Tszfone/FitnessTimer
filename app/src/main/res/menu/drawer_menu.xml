@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_pw"
+            android:icon="@drawable/ic_baseline_playlist_play_24"
+            android:title="@string/pw"/>
+
+        <item
+            android:id="@+id/nav_cw"
+            android:icon="@drawable/ic_baseline_playlist_add_24"
+            android:title="@string/cw"/>
+
+        <item
+            android:id="@+id/nav_badge"
+            android:icon="@drawable/ic_baseline_emoji_events_24"
+            android:title="@string/statistic"/>
+    </group>
+</menu>

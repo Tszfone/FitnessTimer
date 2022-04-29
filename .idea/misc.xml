@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/activity_define_exercise.xml" value="0.22" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/activity_define_workout.xml" value="0.1" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/activity_exercise.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/activity_import.xml" value="0.175" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/fragment_badge.xml" value="0.175" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/fragment_custom_define_workout.xml" value="0.175" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/fragment_predefine_workout.xml" value="0.175" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/nav_drawer_header.xml" value="0.175" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/nav_header.xml" value="0.175" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/toolbar.xml" value="0.175" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/layout/workout_list_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer/app/src/main/res/menu/drawer_menu.xml" value="0.175" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer2/app/src/main/res/layout/activity_define_exercise.xml" value="0.175" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer2/app/src/main/res/layout/activity_exercise.xml" value="0.175" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer2/app/src/main/res/layout/activity_import.xml" value="0.1" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/Tszfone/AndroidStudioProjects/selfLearn/FitnessTimer2/app/src/main/res/xml/file_provider_paths.xml" value="0.175" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
